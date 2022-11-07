@@ -52,10 +52,10 @@ jobs:
           name: uploading docker code   
           command: |
             docker image ls	 
-            docker login -u "$DOCKER_USER" -p "$DOCKER_PASS" docker.io
-            docker tag $IMAGENAME $DOCKER_USER/$IMAGENAME:$IMAGEVERSION
-            dockerpath=$IMAGENAME:$IMAGEVERSION
-            docker push $DOCKER_USER/$dockerpath
+            docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
+            dockerpath=$DOCKER_USER/$IMAGENAME
+            docker tag $IMAGENAME:$IMAGEVERSION ${dockerpath}:$IMAGEVERSION
+            docker push $dockerpath
             
   eks_delpoy:
     #Image
