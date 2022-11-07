@@ -33,7 +33,7 @@ jobs:
   # Deploy docker           
   deploy-docker-image:           
     environment:
-      IMAGEVERSION: v2
+      IMAGEVERSION: v1
     docker:
       - image: circleci/golang:1.15
      
