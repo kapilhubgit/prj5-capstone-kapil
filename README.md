@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/kapilhubgit/prj5-capstone-kapil/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/kapilhubgit/prj5-capstone-kapil/tree/main)
+
 # prj5-capstone-kapil
 *******************************************************************************************
 Project Name: CapstoneFinalProject5
@@ -44,8 +46,8 @@ Step-10) CircleCI is being used to deploy the latest version by pulling the code
 
 *******************************************************************************************
 
-Output (LoadBalancer's URL) 
+Output (LoadBalancer's URL) : http://aebab6dd08cec4f87bf9ea7e81536c5b-606981922.us-east-1.elb.amazonaws.com:5000/
 
 *******************************************************************************************
 
-GitHub Url: 
+GitHub Url: https://github.com/kapilhubgit/prj5-capstone-kapil.git
