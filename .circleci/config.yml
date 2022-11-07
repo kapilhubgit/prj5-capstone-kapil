@@ -54,7 +54,7 @@ jobs:
             docker image ls	 
             docker login -u "$DOCKER_USER" -p "$DOCKER_PASS"
             dockerpath=$IMAGENAME:$IMAGEVERSION
-            docker push $dockerpath
+            docker push $DOCKER_USER/$dockerpath
             
   eks_delpoy:
     #Image
