@@ -1,8 +1,11 @@
 # prj5-capstone-kapil
 *******************************************************************************************
-Project Name: CapstoneFinalProject5 
+Project Name: CapstoneFinalProject5
+
 Programe: Cloud DevOps Nano-Degree (Udacity)
+
 Submitted By: Kapil Chaudhary 
+
 Date of Submission: Nov 2022
 *******************************************************************************************
 
