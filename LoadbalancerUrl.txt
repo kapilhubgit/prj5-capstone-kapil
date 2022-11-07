@@ -1,1 +1,1 @@
-Loadbalancer URL:
+Loadbalancer URL: http://aebab6dd08cec4f87bf9ea7e81536c5b-606981922.us-east-1.elb.amazonaws.com:5000/
