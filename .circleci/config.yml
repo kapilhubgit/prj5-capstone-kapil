@@ -53,8 +53,9 @@ jobs:
           command: |
             docker image ls	 
             docker login -u "$DOCKER_USER" -p "$DOCKER_PASS" docker.io
+            docker tag $IMAGENAME $DOCKER_USER/$IMAGENAME:$IMAGEVERSION
             dockerpath=$IMAGENAME:$IMAGEVERSION
-            docker push $dockerpath
+            docker push $DOCKER_USER/$dockerpath
             
   eks_delpoy:
     #Image
